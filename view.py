@@ -1,4 +1,5 @@
 class View:
+
     def __init__(self):
         pass
 
@@ -7,10 +8,9 @@ class View:
         print("Which select transaction: ")
         print("1. Login")
         print("2. Exit")
-        print("*"*39)
         choice = input("Please enter your option: ")
 
-        return int(choice)
+        return choice
         
 
     def login(self):
@@ -31,15 +31,14 @@ class View:
         print("4. Transfer Fund")
         print("5. Check Information")
         print("6. Logout")
-        print("*"*39)
+
         choice = input("Please enter your transaction: ")
 
-        return int(choice)
+        return choice
 
     def register(self):
         print(f"{'*'*10} MOOD BOOSTER BANK {'*'*10}")
         print("REGISTER NEW ACCOUNT")
-        print("*"*39)
         name = input("Name: ")
         password = input("Password: ")
         email = input("Email: ")
@@ -51,7 +50,6 @@ class View:
     def deposit(self):
         print(f"{'*'*10} MOOD BOOSTER BANK {'*'*10}")
         print("DEPOSIT")
-        print("*"*39)
         username = input("Account Username: ")
         amount = float(input("Amount: "))
 
@@ -60,7 +58,6 @@ class View:
     def withdraw(self):
         print(f"{'*'*10} MOOD BOOSTER BANK {'*'*10}")
         print("WITHDRAW")
-        print("*"*39)
         username = input("Account Username: ")
         amount = float(input("Amount: "))
 

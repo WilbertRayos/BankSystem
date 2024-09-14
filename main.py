@@ -7,7 +7,7 @@ if __name__ == "__main__":
     model = Model()
     controller = Controller(view, model)
 
-    controller.run()
+    controller.login()
 
 
        

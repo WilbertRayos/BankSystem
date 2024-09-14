@@ -1,4 +1,5 @@
 class Model:
+    
     # Data Model
     accounts = {
         "NinoDulay18":{
